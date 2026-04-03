@@ -2,7 +2,7 @@
 
 A fast, client-side web app for filtering and exploring Pokémon spawn data from Cobblemon. Upload your own TSV/CSV spreadsheet export or use the included sample data instantly.
 
-**Live demo:** deploy to Vercel in under 2 minutes (see below).
+Note: This project built as a quick solution for me and my friends, and also a Claude experiment.
 
 ---
 
@@ -189,6 +189,6 @@ cobblemon-spawn-browser/
 ## Assumptions
 
 - All data processing is client-side. No data ever leaves your browser.
-- The sample data uses Gen 1–3 Pokémon with plausible (not necessarily exact) Cobblemon biome assignments — replace with your real export.
+- The sample data uses Gen 1–3 Pokémon with plausible (not necessarily exact) Cobblemon biome assignments — replace with your real export. Official sheets can be found at the [cobblemon wiki](https://wiki.cobblemon.com/index.php/Pok%C3%A9mon/Spawning).
 - Biome values in your spreadsheet should be comma-separated within a single cell.
 - The parser handles both TSV (tab-separated) and CSV (comma-separated with quote handling).
